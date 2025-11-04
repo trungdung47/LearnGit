@@ -8,6 +8,7 @@ public class TutorialController : MonoBehaviour
     void Start()
     {
         transform.position =  new Vector3(100, 100, 100);
+		transform.position +=  new Vector3(0, 0, 0);
     }
 
     // Update is called once per frame
